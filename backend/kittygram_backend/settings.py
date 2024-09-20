@@ -8,7 +8,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", 'fallback_secret_key')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['123.123.123.123', '127.0.0.1', 'localhost', 'kittygram.rent4u.kz']
+ALLOWED_HOSTS = ['89.169.162.177', 'kittygram.rent4u.kz', '0.0.0.0' ]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
